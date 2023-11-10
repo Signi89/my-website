@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: antiquewhite;
+
+}
+
+h1 {
+    color: antiquewhite;
+    text-align: center;
+    font-style: italic;
+}
+
+h2 {
+    color: antiquewhite;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    border: 10px;
+    padding: 10px;
+    list-style-type: none;
+    background-color:brown;
+}
+
+ul >li{
+    border-right: 2px solid #000;
+    padding: 0 15px;
+    box-shadow: #fff;
+}
+
+ul:hover {
+    background-color: wheat;
+    transition: 1s;
+
+}
+
+h4 {
+    display: flex;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif
+}
+.newsletter{
+    display: flex;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+    text-align: right;
+    box-sizing: border-box;
+}
+/* .email{
+    border-radius: 15px; */
+/* } */
+
+.fa-brands {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-base);
+    border-radius: 100px;
+    font-size: 24px;
+    /* display: flex;
+border:10px;
+padding: 10px;
+max-width: 100px;
+min-width: 50px;
+justify-content: space-around; */
+}
+
+.profile {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.content {
+    align-self: center;
+}
+
+form {
+    border: 1px solid black;
+    width: fit-content;
+    margin: 10px;
+    padding: 10px;
+    background-color: brown;
+    border-radius: 15px;
+}
+button{
+    padding: 5px;
+    background-color: grey;
+    border-radius: 10px;
+}
+.email{
+    width: 20rem;
+    padding: 10px;
+}
+.footer{
+    border: 1px solid #fff;
+    padding: 20px;
+}
